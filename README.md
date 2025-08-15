@@ -1,25 +1,27 @@
-# Documentation
+# ai-ml-projects
 
-## UV
-### Initialize UV
+## Documentation
+
+### UV
+#### Initialize UV
 
 ```bash
 # initialize the project
 uv init .
 ```
 
-### Add MCP to project dependencies
+#### Add MCP to project dependencies
 
 ```bash
 uv add "mcp[cli]"
 ```
 
-### Install MCP 
+#### Install MCP 
 
 Use Claude desktop here. Need to restart it everytime existing functionality is being updated or new being added.
 ```bash
 mcp install main.py
 ```
 
-## References
+### References
 1. [Code by techwithtim](https://github.com/techwithtim/PythonMCPServer)
