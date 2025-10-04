@@ -1,0 +1,19 @@
+[project]
+name = "langchain-101"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.1.0",
+    "langchain-chroma>=0.2.6",
+    "langchain-community>=0.3.30",
+    "langchain-core>=0.3.76",
+    "langchain-google-genai>=2.1.12",
+    "langchain-google-vertexai>=2.1.2",
+    "langchain-ollama>=0.3.10",
+    "langchain-openai>=0.3.33",
+    "langchain[google-genai]>=0.3.27",
+    "pandas>=2.3.3",
+    "python-dotenv>=1.1.1",
+]
